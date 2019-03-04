@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 class TestAsumar {
 
 	@Test
-    public void testUnaCifra() {
-        ASumar sumi = new ASumar("5");
+    public void testNegativo() {
+        ASumar sumi = new ASumar("-1");
         String resultado = sumi.mostrar();
-        assertEquals("5 = 5",resultado );
+        assertEquals("",resultado );
     }
 
 }
