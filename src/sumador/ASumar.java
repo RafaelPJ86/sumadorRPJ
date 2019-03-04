@@ -17,7 +17,7 @@ public class ASumar {
 
 	/**
 	 * @return
-	 * si numero.length == 1 devuelve el string si no devuelve null.
+	 * si numero.length == 1
 	 */
 	public String mostrar() {
         String numero = valor_inicial;
