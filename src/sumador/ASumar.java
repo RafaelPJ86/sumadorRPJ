@@ -22,11 +22,20 @@ public class ASumar {
 	public String mostrar() {
         String numero = valor_inicial;
         String cadena="";
-        if (numero.length() == 1) {
+        int numEntero = Integer.parseInt(numero);
+        if (numEntero > 0) {
+        	 if (numero.length() == 1) {
+             	
+                 cadena= (numero + " = " + numero);
+             }
         	
-            cadena= (numero + " = " + numero);
+        	
+        }else {
+        	cadena= "";
+        	
         }
-		return cadena;
+ 		return cadena;
+
 		
 }
 	
